@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KeychainLocksmith" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnJ-57-hrB">
+                                <rect key="frame" x="100" y="81" width="174" height="30"/>
+                                <state key="normal" title="Save sample to Keychain."/>
+                                <connections>
+                                    <action selector="saveToKeychainTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MiZ-Jq-Tjg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mE-Ne-ETD">
+                                <rect key="frame" x="108" y="119" width="158" height="30"/>
+                                <state key="normal" title="Retrieve from Keychain"/>
+                                <connections>
+                                    <action selector="retrieveFromKeychainTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fYY-a8-fsp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTO-Ys-qRa">
+                                <rect key="frame" x="103" y="157" width="169" height="30"/>
+                                <state key="normal" title="Update data to Keychain"/>
+                                <connections>
+                                    <action selector="updateToKeychainTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5I5-lq-KY8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrC-Gb-5U8">
+                                <rect key="frame" x="114" y="195" width="146" height="30"/>
+                                <state key="normal" title="Delete from Keychain"/>
+                                <connections>
+                                    <action selector="deleteFromKeychainTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gU-vH-JMx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserAccount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFQ-YT-gcP">
+                                <rect key="frame" x="16" y="288" width="351" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Key:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CA2-0J-Leh">
+                                <rect key="frame" x="16" y="317" width="351" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOz-jS-51i">
+                                <rect key="frame" x="16" y="346" width="351" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvj-WQ-Pig">
+                                <rect key="frame" x="16" y="375" width="351" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="yg6-Nb-E7a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kTO-Ys-qRa" firstAttribute="top" secondItem="0mE-Ne-ETD" secondAttribute="bottom" constant="8" symbolic="YES" id="1ok-wI-iII"/>
+                            <constraint firstItem="kTO-Ys-qRa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3oD-Pi-LaV"/>
+                            <constraint firstItem="Pvj-WQ-Pig" firstAttribute="top" secondItem="VOz-jS-51i" secondAttribute="bottom" constant="8" symbolic="YES" id="4t1-Rm-Kk8"/>
+                            <constraint firstItem="VOz-jS-51i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8NW-Uu-i6i"/>
+                            <constraint firstItem="CA2-0J-Leh" firstAttribute="top" secondItem="iFQ-YT-gcP" secondAttribute="bottom" constant="8" symbolic="YES" id="CbS-3j-5Nn"/>
+                            <constraint firstItem="iFQ-YT-gcP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DwV-EI-0u3"/>
+                            <constraint firstItem="CA2-0J-Leh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EB8-dm-5EV"/>
+                            <constraint firstItem="0mE-Ne-ETD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PEB-As-FIa"/>
+                            <constraint firstItem="FnJ-57-hrB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PXn-8f-Pcz"/>
+                            <constraint firstItem="Pvj-WQ-Pig" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XXk-0c-3ZQ"/>
+                            <constraint firstItem="LrC-Gb-5U8" firstAttribute="top" secondItem="kTO-Ys-qRa" secondAttribute="bottom" constant="8" symbolic="YES" id="cpV-DM-Jdi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CA2-0J-Leh" secondAttribute="trailing" constant="8" id="dg1-iV-zML"/>
+                            <constraint firstItem="VOz-jS-51i" firstAttribute="top" secondItem="CA2-0J-Leh" secondAttribute="bottom" constant="8" symbolic="YES" id="di8-sZ-p0z"/>
+                            <constraint firstItem="0mE-Ne-ETD" firstAttribute="top" secondItem="FnJ-57-hrB" secondAttribute="bottom" constant="8" symbolic="YES" id="eNo-Jp-jGj"/>
+                            <constraint firstItem="LrC-Gb-5U8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kwq-tH-vw4"/>
+                            <constraint firstItem="iFQ-YT-gcP" firstAttribute="top" secondItem="LrC-Gb-5U8" secondAttribute="bottom" constant="63" id="mJz-sS-bEE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iFQ-YT-gcP" secondAttribute="trailing" constant="8" id="n8L-pB-kW0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VOz-jS-51i" secondAttribute="trailing" constant="8" id="ngS-2Z-Ezk"/>
+                            <constraint firstItem="FnJ-57-hrB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="sVM-OL-Xru"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pvj-WQ-Pig" secondAttribute="trailing" constant="8" id="uwd-Id-bLt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="keyLabel" destination="CA2-0J-Leh" id="K9Y-AK-hif"/>
+                        <outlet property="statusLabel" destination="Pvj-WQ-Pig" id="xbJ-jy-cCU"/>
+                        <outlet property="userAccountLabel" destination="iFQ-YT-gcP" id="QdR-To-qso"/>
+                        <outlet property="valueLabel" destination="VOz-jS-51i" id="Uyx-rV-Ud3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>
