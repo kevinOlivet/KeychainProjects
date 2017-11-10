@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9A09F11FB49D8900FFE4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A09F01FB49D8900FFE4DD /* AppDelegate.swift */; };
+		2D9A09F61FB49D8900FFE4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A09F41FB49D8900FFE4DD /* Main.storyboard */; };
+		2D9A09F91FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A09F71FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodeld */; };
+		2D9A09FB1FB49D8900FFE4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A09FA1FB49D8900FFE4DD /* Assets.xcassets */; };
+		2D9A09FE1FB49D8900FFE4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A09FC1FB49D8900FFE4DD /* LaunchScreen.storyboard */; };
+		2D9A0A0C1FB49E5200FFE4DD /* TouchIDAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A0A051FB49E5200FFE4DD /* TouchIDAuthentication.swift */; };
+		2D9A0A0D1FB49E5200FFE4DD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A0A061FB49E5200FFE4DD /* MasterViewController.swift */; };
+		2D9A0A0E1FB49E5200FFE4DD /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A0A071FB49E5200FFE4DD /* Note.swift */; };
+		2D9A0A0F1FB49E5200FFE4DD /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A0A081FB49E5200FFE4DD /* KeychainPasswordItem.swift */; };
+		2D9A0A111FB49E5200FFE4DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A0A0A1FB49E5200FFE4DD /* LoginViewController.swift */; };
+		2D9A0A121FB49E5200FFE4DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A0A0B1FB49E5200FFE4DD /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D9A09ED1FB49D8900FFE4DD /* KeychainTouchMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainTouchMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9A09F01FB49D8900FFE4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D9A09F51FB49D8900FFE4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D9A09F81FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeychainTouchMeIn.xcdatamodel; sourceTree = "<group>"; };
+		2D9A09FA1FB49D8900FFE4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D9A09FD1FB49D8900FFE4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D9A09FF1FB49D8900FFE4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9A0A051FB49E5200FFE4DD /* TouchIDAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDAuthentication.swift; sourceTree = "<group>"; };
+		2D9A0A061FB49E5200FFE4DD /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2D9A0A071FB49E5200FFE4DD /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		2D9A0A081FB49E5200FFE4DD /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		2D9A0A0A1FB49E5200FFE4DD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D9A0A0B1FB49E5200FFE4DD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2D9A0A151FB4A13400FFE4DD /* KeychainTouchMeIn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainTouchMeIn.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9A09EA1FB49D8900FFE4DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9A09E41FB49D8900FFE4DD = {
+			isa = PBXGroup;
+			children = (
+				2D9A09EF1FB49D8900FFE4DD /* KeychainTouchMeIn */,
+				2D9A09EE1FB49D8900FFE4DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9A09EE1FB49D8900FFE4DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9A09ED1FB49D8900FFE4DD /* KeychainTouchMeIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9A09EF1FB49D8900FFE4DD /* KeychainTouchMeIn */ = {
+			isa = PBXGroup;
+			children = (
+				2D9A09F01FB49D8900FFE4DD /* AppDelegate.swift */,
+				2D9A0A0B1FB49E5200FFE4DD /* DetailViewController.swift */,
+				2D9A0A081FB49E5200FFE4DD /* KeychainPasswordItem.swift */,
+				2D9A0A0A1FB49E5200FFE4DD /* LoginViewController.swift */,
+				2D9A0A061FB49E5200FFE4DD /* MasterViewController.swift */,
+				2D9A0A071FB49E5200FFE4DD /* Note.swift */,
+				2D9A0A051FB49E5200FFE4DD /* TouchIDAuthentication.swift */,
+				2D9A09FA1FB49D8900FFE4DD /* Assets.xcassets */,
+				2D9A0A151FB4A13400FFE4DD /* KeychainTouchMeIn.entitlements */,
+				2D9A09F41FB49D8900FFE4DD /* Main.storyboard */,
+				2D9A09FC1FB49D8900FFE4DD /* LaunchScreen.storyboard */,
+				2D9A09FF1FB49D8900FFE4DD /* Info.plist */,
+				2D9A09F71FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodeld */,
+			);
+			path = KeychainTouchMeIn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9A09EC1FB49D8900FFE4DD /* KeychainTouchMeIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9A0A021FB49D8900FFE4DD /* Build configuration list for PBXNativeTarget "KeychainTouchMeIn" */;
+			buildPhases = (
+				2D9A09E91FB49D8900FFE4DD /* Sources */,
+				2D9A09EA1FB49D8900FFE4DD /* Frameworks */,
+				2D9A09EB1FB49D8900FFE4DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainTouchMeIn;
+			productName = KeychainTouchMeIn;
+			productReference = 2D9A09ED1FB49D8900FFE4DD /* KeychainTouchMeIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D9A09E51FB49D8900FFE4DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jon Olivet";
+				TargetAttributes = {
+					2D9A09EC1FB49D8900FFE4DD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2D9A09E81FB49D8900FFE4DD /* Build configuration list for PBXProject "KeychainTouchMeIn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D9A09E41FB49D8900FFE4DD;
+			productRefGroup = 2D9A09EE1FB49D8900FFE4DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9A09EC1FB49D8900FFE4DD /* KeychainTouchMeIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9A09EB1FB49D8900FFE4DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9A09FE1FB49D8900FFE4DD /* LaunchScreen.storyboard in Resources */,
+				2D9A09FB1FB49D8900FFE4DD /* Assets.xcassets in Resources */,
+				2D9A09F61FB49D8900FFE4DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9A09E91FB49D8900FFE4DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9A0A121FB49E5200FFE4DD /* DetailViewController.swift in Sources */,
+				2D9A0A0E1FB49E5200FFE4DD /* Note.swift in Sources */,
+				2D9A0A0D1FB49E5200FFE4DD /* MasterViewController.swift in Sources */,
+				2D9A09F91FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodeld in Sources */,
+				2D9A0A111FB49E5200FFE4DD /* LoginViewController.swift in Sources */,
+				2D9A09F11FB49D8900FFE4DD /* AppDelegate.swift in Sources */,
+				2D9A0A0C1FB49E5200FFE4DD /* TouchIDAuthentication.swift in Sources */,
+				2D9A0A0F1FB49E5200FFE4DD /* KeychainPasswordItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D9A09F41FB49D8900FFE4DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9A09F51FB49D8900FFE4DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D9A09FC1FB49D8900FFE4DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9A09FD1FB49D8900FFE4DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D9A0A001FB49D8900FFE4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D9A0A011FB49D8900FFE4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9A0A031FB49D8900FFE4DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainTouchMeIn/KeychainTouchMeIn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7Z96QXV9V;
+				INFOPLIST_FILE = KeychainTouchMeIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.jonolivet.KeychainTouchMeIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D9A0A041FB49D8900FFE4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainTouchMeIn/KeychainTouchMeIn.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7Z96QXV9V;
+				INFOPLIST_FILE = KeychainTouchMeIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.jonolivet.KeychainTouchMeIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9A09E81FB49D8900FFE4DD /* Build configuration list for PBXProject "KeychainTouchMeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9A0A001FB49D8900FFE4DD /* Debug */,
+				2D9A0A011FB49D8900FFE4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9A0A021FB49D8900FFE4DD /* Build configuration list for PBXNativeTarget "KeychainTouchMeIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9A0A031FB49D8900FFE4DD /* Debug */,
+				2D9A0A041FB49D8900FFE4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D9A09F71FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D9A09F81FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodel */,
+			);
+			currentVersion = 2D9A09F81FB49D8900FFE4DD /* KeychainTouchMeIn.xcdatamodel */;
+			path = KeychainTouchMeIn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D9A09E51FB49D8900FFE4DD /* Project object */;
+}
