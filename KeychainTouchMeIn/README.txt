@@ -1,6 +1,3 @@
-# KeychainProjects
-A collection of projects using Keychain.
-
 #KeychainTouchMeIn
 
 This project uses Keychain to save a username and password.
